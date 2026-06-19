@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Inter",sans-serif;
+}
+body{
+    min-height: 150vh;
+    background:
+    linear-gradient(
+        #470a10 0%,
+        #2a0608 20%,
+        #120102 50%,
+        #000 100%);
+}
+header{
+    /* min-height: 70px; */
+    /* background-color: blue; */
+    padding: clamp(1rem,5vw,3rem);
+    padding-inline: 10vw;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.151);
+}
+.logo img{
+    width:clamp(100px,12vw,400px);
+}
+.container{
+    height: 90vh;  
+    background-color: aqua;
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
